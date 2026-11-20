@@ -4,8 +4,8 @@
 
 ## How tested
 
-<!-- What you ran or checked, and where (local, dev, staging). If it was not tested, write "Not tested" and why. -->
+<!-- What you ran or checked, and where (local, dev, staging). If it was not tested, write "Not tested" and why. If this changes what an AI model receives or returns (prompts, agent tools, context), say how you checked for leakage between clients, prompt injection and exposure of the system prompt. -->
 
 ## Risk and rollback
 
-<!-- What could break and who it affects, and how to undo it. Changes to authentication, access control, encryption, the separation of client data, or data migrations also need a security review and a rollback plan. An infrastructure change names its plan section; it is applied after the merge. -->
+<!-- What could break and who it affects, and how to undo it. Changes to authentication, access control, encryption, the separation of client data, what an AI model receives or returns, or data migrations also need a security review and a rollback plan. An infrastructure change names its plan section; it is applied after the merge. -->
